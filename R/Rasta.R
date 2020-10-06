@@ -15,7 +15,7 @@ Rasta <- function(language = "English") {
 
   timezone = Sys.timezone()
 
-  current_systime = lubridate::ymd_hms(now(), tz = timezone)
+  current_systime = lubridate::ymd_hms(lubridate::now(), tz = timezone)
 
   this_year_420 = (paste(year(current_systime), "-04-20 16:20:00", timezone))
   this_year_420 = lubridate::ymd_hms(this_year_420)
