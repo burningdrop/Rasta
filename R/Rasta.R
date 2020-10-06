@@ -37,7 +37,7 @@ Rasta <- function(language = "English") {
 
 
   if (language == "English") {
-  print(paste("There is", day(difference), "days", hour(difference), "hours and", minute(difference), "minutes left until next 420.",
+  print(paste("There is", day(difference), "days,", hour(difference), "hours and", minute(difference), "minutes left until next 420.",
               "Your Environment and Console have been cleaned – happy coding! If you haven't reached Ballmer's Peak yet, you know how to get there..."))
   } else if (language == "German") {
     print(paste("Es geht noch", day(difference), "Tage", hour(difference), "Stunden und", minute(difference), "Minuten bis zum nächsten 420.",
