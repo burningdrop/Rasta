@@ -45,7 +45,9 @@ Rasta <- function(language = "English") {
                 "Dis Environment und d Konsole sind gleert worde – fröhlichs Code! Falls du de Ballmer's Peak nonig erreicht häsch.. du weisch wie du det hie chunschs..."))
   } else {
     print(paste("The language ", language, " is not supported"))
+
   }
   
 }
+
 
