@@ -40,9 +40,9 @@ Rasta <- function(language = "English") {
   } else if (language == "German") {
     print(paste("Es geht noch", day(difference), "Tage", hour(difference), "Stunden und", minute(difference), "Minuten bis zum nächsten 420.",
                 "Dein Environment und die Konsole wurden geleert – fröhliches Coden! Falls Du den Ballmer's Peak noch nicht erreicht hast, Du weiss wie Du dorthin gelangst..."))
-  } else if (language == "SwissGerman") {
-    print(paste("Es gaht no", day(difference), "Täge", hour(difference), "Stunde und", minute(difference), "Minute bis zum nächste 420.",
-                "Dis Environment und d Konsole sind gleert worde – fröhlichs Code! Falls du de Ballmer's Peak nonig erreicht häsch.. du weisch wie du det hie chunschs..."))
+  } else if (language == "Swiss German") {
+    print(paste("Es gaht no", day(difference), "Täg,", hour(difference), "Stund und", minute(difference), "Minute bis zum nöchste 420.",
+                "Dis Environment und d Konsole sind gleert worde – fröhlichs Rassssstacoding! Falls de Ballmer's Peak nonig erreicht hesch, Du weisch wie ihn erreiche chasch..."))
   } else {
     print(paste("The language ", language, " is not supported"))
 
